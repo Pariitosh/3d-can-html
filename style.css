@@ -24,13 +24,14 @@
   text-transform: uppercase;
   text-align: center;
   color: white;
+  z-index: 0;
 }
 .navbar{
   width: 100dvw;
   height: 10dvh;
   background-color: black;
   color: white;
-  
+  z-index: 1;
   position: fixed;
   top: 0dvh;
   display: flex;
@@ -42,4 +43,30 @@
 .navbar p1{
   margin-left: 1%;
   font-size: 1.5vw;
+}
+.main2{
+  height: 100dvh;
+  width: 100dvw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color:rgb(117, 132, 106);
+}
+.main3{
+  height: 100dvh;
+  width: 100dvw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color:rgb(117, 132, 106);
+}
+.main3 h1{
+  font-size: 5dvw;
+}
+
+.box{
+  height: 60%;
+  width: 20%;
+  border: 2px solid white; 
+  border-radius: 20px;
 }
